@@ -1,0 +1,19 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello world\"",
+    "watch-css": "node-sass -w sass/style.scss css/style.css",
+    "build-css": "node-sass sass/style.scss css/style.css",
+    "live-update": "browser-sync start --config bs-config.js",
+    "dev": "npm run watch-css | npm run live-update"
+  },
+  "author": "",
+  "license": "All Rights Reserved",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "node-sass": "^4.9.0"
+  }
+}
