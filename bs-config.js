@@ -24,7 +24,7 @@ module.exports = {
     ignoreInitial: true,
   },
   server: false,
-  proxy: 'sheets.localhost',
+  proxy: '',
   port: 3000,
   middleware: false,
   serveStatic: [],
